@@ -1,1 +1,126 @@
-1
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/*
+#004747
+
+ */
+
+h1.display-4.font-italic{
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 600;
+	font-style: normal!important;
+	text-shadow: 2px -2px 3px #0008;
+}
+
+.bg-dark-cyan{
+	background: linear-gradient(100deg,#004747 20%, #002047 90%);
+	/*background: linear-gradient(90deg, #004747, #002047);*/
+	/*background: #004747;*/
+}
+
+@media (max-width: 425px) {
+	h1.display-4.font-italic{
+		font-size: 2.5rem;
+	}
+}
+
+
+.text-php{
+	color: #4F5B93;
+}
+
+.bg-php{
+	background: #4F5B93;
+}
+
+
+.text-js{
+	color: #F7DF1E;
+}
+
+.bg-js{
+	background: #F7DF1E;
+}
+
+.text-html{
+	color: #F16529;
+}
+
+.bg-html{
+	background: #F16529;
+}
+
+.text-css{
+	color: #409AD6;
+}
+
+.bg-css{
+	background: #409AD6;
+}
+
+.text-lego{
+	color: #E40003;
+}
+
+.bg-lego{
+	background: #E40003;
+}
+
+
+a.text-php:hover{
+	color: #37437b;
+}
+a.text-js:hover{
+	color: #dfc706;
+}
+a.text-html:hover{
+	color: #d94d11;
+}
+a.text-css:hover{
+	color: #2882be;
+}
+a.text-lego:hover{
+	color: #c00;
+}
+
+
+
+
+
+
+
+.bg-cover{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+	font-weight: 900;
+    font-size: 2.25rem;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
